@@ -49,7 +49,7 @@ app.use("/api/v1", router);
 
 app.get("/", async (req: Request, res: Response) => {
   res.status(httpStatus.OK).json({
-    message: "welcome to our rideshare project server............",
+    message: "welcome to our ai-interview project server............",
   });
 });
 
